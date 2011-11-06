@@ -1007,152 +1007,6 @@
     </org.hi.studio.hsceditor.visual.model.TableModel>
     <org.hi.studio.hsceditor.visual.model.TableModel reference="../org.hi.studio.hsceditor.visual.model.TableModel[2]/sourceConnections/org.hi.studio.hsceditor.visual.model.ForeignKeyModel/target"/>
     <org.hi.studio.hsceditor.visual.model.EnumerationModel>
-      <enumName>ShippingType</enumName>
-      <enumDesc>物流方式</enumDesc>
-      <error></error>
-      <linkedPath></linkedPath>
-      <tableName></tableName>
-      <logicalName></logicalName>
-      <description></description>
-      <isDeleted>false</isDeleted>
-      <isCreator>true</isCreator>
-      <columns>
-        <org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-          <enumValue>free</enumValue>
-          <enumLabel>卖家包邮</enumLabel>
-          <enumCode>0</enumCode>
-          <columnName></columnName>
-          <logicalName></logicalName>
-          <size></size>
-          <scale></scale>
-          <notNull>false</notNull>
-          <primaryKey>false</primaryKey>
-          <description></description>
-          <autoIncrement>false</autoIncrement>
-          <defaultValue></defaultValue>
-          <mainEntityName></mainEntityName>
-          <hiValidator></hiValidator>
-          <lkServiceName></lkServiceName>
-          <lkEntityName></lkEntityName>
-          <lkFieldName></lkFieldName>
-          <isLkForeignKey>false</isLkForeignKey>
-          <hiDataType>0</hiDataType>
-          <isSearch>false</isSearch>
-          <isListDisplay>true</isListDisplay>
-          <isReadOnly>false</isReadOnly>
-          <isHidden>false</isHidden>
-          <isFull>false</isFull>
-          <isMainLookup>false</isMainLookup>
-          <isParent>false</isParent>
-        </org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-        <org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-          <enumValue>post</enumValue>
-          <enumLabel>平邮</enumLabel>
-          <enumCode>1</enumCode>
-          <columnName></columnName>
-          <logicalName></logicalName>
-          <size></size>
-          <scale></scale>
-          <notNull>false</notNull>
-          <primaryKey>false</primaryKey>
-          <description></description>
-          <autoIncrement>false</autoIncrement>
-          <defaultValue></defaultValue>
-          <mainEntityName></mainEntityName>
-          <hiValidator></hiValidator>
-          <lkServiceName></lkServiceName>
-          <lkEntityName></lkEntityName>
-          <lkFieldName></lkFieldName>
-          <isLkForeignKey>false</isLkForeignKey>
-          <hiDataType>0</hiDataType>
-          <isSearch>false</isSearch>
-          <isListDisplay>true</isListDisplay>
-          <isReadOnly>false</isReadOnly>
-          <isHidden>false</isHidden>
-          <isFull>false</isFull>
-          <isMainLookup>false</isMainLookup>
-          <isParent>false</isParent>
-        </org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-        <org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-          <enumValue>express</enumValue>
-          <enumLabel>快递</enumLabel>
-          <enumCode>2</enumCode>
-          <columnName></columnName>
-          <logicalName></logicalName>
-          <size></size>
-          <scale></scale>
-          <notNull>false</notNull>
-          <primaryKey>false</primaryKey>
-          <description></description>
-          <autoIncrement>false</autoIncrement>
-          <defaultValue></defaultValue>
-          <mainEntityName></mainEntityName>
-          <hiValidator></hiValidator>
-          <lkServiceName></lkServiceName>
-          <lkEntityName></lkEntityName>
-          <lkFieldName></lkFieldName>
-          <isLkForeignKey>false</isLkForeignKey>
-          <hiDataType>0</hiDataType>
-          <isSearch>false</isSearch>
-          <isListDisplay>true</isListDisplay>
-          <isReadOnly>false</isReadOnly>
-          <isHidden>false</isHidden>
-          <isFull>false</isFull>
-          <isMainLookup>false</isMainLookup>
-          <isParent>false</isParent>
-        </org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-        <org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-          <enumValue>ems</enumValue>
-          <enumLabel>EMS</enumLabel>
-          <enumCode>3</enumCode>
-          <columnName></columnName>
-          <logicalName></logicalName>
-          <size></size>
-          <scale></scale>
-          <notNull>false</notNull>
-          <primaryKey>false</primaryKey>
-          <description></description>
-          <autoIncrement>false</autoIncrement>
-          <defaultValue></defaultValue>
-          <mainEntityName></mainEntityName>
-          <hiValidator></hiValidator>
-          <lkServiceName></lkServiceName>
-          <lkEntityName></lkEntityName>
-          <lkFieldName></lkFieldName>
-          <isLkForeignKey>false</isLkForeignKey>
-          <hiDataType>0</hiDataType>
-          <isSearch>false</isSearch>
-          <isListDisplay>true</isListDisplay>
-          <isReadOnly>false</isReadOnly>
-          <isHidden>false</isHidden>
-          <isFull>false</isFull>
-          <isMainLookup>false</isMainLookup>
-          <isParent>false</isParent>
-        </org.hi.studio.hsceditor.visual.model.EnumerationValueModel>
-      </columns>
-      <indices/>
-      <extendServiceName></extendServiceName>
-      <extendEntityName></extendEntityName>
-      <entityBaseData>2700400</entityBaseData>
-      <constraint>
-        <x>55</x>
-        <y>171</y>
-        <width>-1</width>
-        <height>-1</height>
-      </constraint>
-      <sourceConnections/>
-      <targetConnections/>
-      <listeners serialization="custom">
-        <java.beans.PropertyChangeSupport>
-          <default>
-            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
-            <source class="org.hi.studio.hsceditor.visual.model.EnumerationModel" reference="../../../.."/>
-          </default>
-          <null/>
-        </java.beans.PropertyChangeSupport>
-      </listeners>
-    </org.hi.studio.hsceditor.visual.model.EnumerationModel>
-    <org.hi.studio.hsceditor.visual.model.EnumerationModel>
       <enumName>RefundStatus</enumName>
       <enumDesc>退款状态</enumDesc>
       <error></error>
@@ -1337,8 +1191,8 @@
       <extendEntityName></extendEntityName>
       <entityBaseData>2700500</entityBaseData>
       <constraint>
-        <x>62</x>
-        <y>19</y>
+        <x>63</x>
+        <y>27</y>
         <width>-1</width>
         <height>-1</height>
       </constraint>
@@ -1455,8 +1309,8 @@
       <extendEntityName></extendEntityName>
       <entityBaseData>2700600</entityBaseData>
       <constraint>
-        <x>202</x>
-        <y>174</y>
+        <x>183</x>
+        <y>172</y>
         <width>-1</width>
         <height>-1</height>
       </constraint>

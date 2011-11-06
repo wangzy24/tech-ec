@@ -346,8 +346,8 @@
       <extendEntityName>HiUser</extendEntityName>
       <entityBaseData>100100</entityBaseData>
       <constraint>
-        <x>141</x>
-        <y>66</y>
+        <x>139</x>
+        <y>72</y>
         <width>-1</width>
         <height>-1</height>
       </constraint>
