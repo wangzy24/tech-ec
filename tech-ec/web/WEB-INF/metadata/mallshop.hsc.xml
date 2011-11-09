@@ -110,34 +110,6 @@
         
         
                             <field>
-            <fieldName>nick</fieldName>
-            <fieldLabel>卖家昵称</fieldLabel>
-                        <isPrimaryKey>false</isPrimaryKey>
-                                    <isSearch>true</isSearch>
-                                    <isListDisplay>true</isListDisplay>
-                                    <isReadOnly>false</isReadOnly>
-                                    <isHidden>false</isHidden>
-                                    <isFull>true</isFull>
-                                    <isMainLookup>false</isMainLookup>
-                        <defaultValue></defaultValue> 
-            <validator></validator>  
-            <length>100</length>
-            <scale></scale>
-                        <isParent>false</isParent>
-            <fieldType>1</fieldType>
-            
-                        <lookupEntity>
-                <lkServiceName></lkServiceName>
-                <lkEntityName></lkEntityName>
-                <isLkForeignKey>false</isLkForeignKey>
-                <mainLkFieldName></mainLkFieldName>
-            </lookupEntity>
-                        
-                       </field>
-                     
-        
-        
-                            <field>
             <fieldName>title</fieldName>
             <fieldLabel>店铺标题</fieldLabel>
                         <isPrimaryKey>false</isPrimaryKey>
@@ -383,6 +355,62 @@
                 <lkEntityName>ShopScore</lkEntityName>
                 <isLkForeignKey>false</isLkForeignKey>
                 <mainLkFieldName>deliveryScore</mainLkFieldName>
+            </lookupEntity>
+                        
+                       </field>
+                     
+        
+        
+                            <field>
+            <fieldName>userInfo</fieldName>
+            <fieldLabel>掌柜</fieldLabel>
+                        <isPrimaryKey>false</isPrimaryKey>
+                                    <isSearch>false</isSearch>
+                                    <isListDisplay>false</isListDisplay>
+                                    <isReadOnly>true</isReadOnly>
+                                    <isHidden>true</isHidden>
+                                    <isFull>false</isFull>
+                                    <isMainLookup>false</isMainLookup>
+                        <defaultValue></defaultValue> 
+            <validator></validator>  
+            <length></length>
+            <scale></scale>
+                        <isParent>false</isParent>
+            <fieldType>6</fieldType>
+            
+                        <lookupEntity>
+                <lkServiceName>userinfo</lkServiceName>
+                <lkEntityName>UserInfo</lkEntityName>
+                <isLkForeignKey>true</isLkForeignKey>
+                <mainLkFieldName>id</mainLkFieldName>
+            </lookupEntity>
+                        
+                       </field>
+                     
+        
+        
+                            <field>
+            <fieldName>nick</fieldName>
+            <fieldLabel>用户昵称</fieldLabel>
+                        <isPrimaryKey>false</isPrimaryKey>
+                                    <isSearch>false</isSearch>
+                                    <isListDisplay>true</isListDisplay>
+                                    <isReadOnly>false</isReadOnly>
+                                    <isHidden>false</isHidden>
+                                    <isFull>false</isFull>
+                                    <isMainLookup>true</isMainLookup>
+                        <defaultValue></defaultValue> 
+            <validator></validator>  
+            <length>50</length>
+            <scale></scale>
+                        <isParent>false</isParent>
+            <fieldType>6</fieldType>
+            
+                        <lookupEntity>
+                <lkServiceName>userinfo</lkServiceName>
+                <lkEntityName>UserInfo</lkEntityName>
+                <isLkForeignKey>false</isLkForeignKey>
+                <mainLkFieldName>nick</mainLkFieldName>
             </lookupEntity>
                         
                        </field>

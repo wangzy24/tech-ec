@@ -86,31 +86,6 @@
           <isParent>false</isParent>
         </org.hi.studio.hsceditor.visual.model.ColumnModel>
         <org.hi.studio.hsceditor.visual.model.ColumnModel>
-          <columnName>nick</columnName>
-          <logicalName>column4</logicalName>
-          <size>100</size>
-          <scale></scale>
-          <notNull>false</notNull>
-          <primaryKey>false</primaryKey>
-          <description>卖家昵称</description>
-          <autoIncrement>false</autoIncrement>
-          <defaultValue></defaultValue>
-          <mainEntityName></mainEntityName>
-          <hiValidator></hiValidator>
-          <lkServiceName></lkServiceName>
-          <lkEntityName></lkEntityName>
-          <lkFieldName></lkFieldName>
-          <isLkForeignKey>false</isLkForeignKey>
-          <hiDataType>1</hiDataType>
-          <isSearch>true</isSearch>
-          <isListDisplay>true</isListDisplay>
-          <isReadOnly>false</isReadOnly>
-          <isHidden>false</isHidden>
-          <isFull>true</isFull>
-          <isMainLookup>false</isMainLookup>
-          <isParent>false</isParent>
-        </org.hi.studio.hsceditor.visual.model.ColumnModel>
-        <org.hi.studio.hsceditor.visual.model.ColumnModel>
           <columnName>title</columnName>
           <logicalName>column5</logicalName>
           <size>100</size>
@@ -335,6 +310,56 @@
           <isMainLookup>true</isMainLookup>
           <isParent>false</isParent>
         </org.hi.studio.hsceditor.visual.model.ColumnModel>
+        <org.hi.studio.hsceditor.visual.model.ColumnModel>
+          <columnName>userInfo</columnName>
+          <logicalName>column14</logicalName>
+          <size></size>
+          <scale></scale>
+          <notNull>false</notNull>
+          <primaryKey>false</primaryKey>
+          <description>掌柜</description>
+          <autoIncrement>false</autoIncrement>
+          <defaultValue></defaultValue>
+          <mainEntityName></mainEntityName>
+          <hiValidator></hiValidator>
+          <lkServiceName>userinfo</lkServiceName>
+          <lkEntityName>UserInfo</lkEntityName>
+          <lkFieldName>id</lkFieldName>
+          <isLkForeignKey>true</isLkForeignKey>
+          <hiDataType>6</hiDataType>
+          <isSearch>false</isSearch>
+          <isListDisplay>false</isListDisplay>
+          <isReadOnly>true</isReadOnly>
+          <isHidden>true</isHidden>
+          <isFull>false</isFull>
+          <isMainLookup>false</isMainLookup>
+          <isParent>false</isParent>
+        </org.hi.studio.hsceditor.visual.model.ColumnModel>
+        <org.hi.studio.hsceditor.visual.model.ColumnModel>
+          <columnName>nick</columnName>
+          <logicalName>nick</logicalName>
+          <size>50</size>
+          <scale></scale>
+          <notNull>false</notNull>
+          <primaryKey>false</primaryKey>
+          <description>用户昵称</description>
+          <autoIncrement>false</autoIncrement>
+          <defaultValue></defaultValue>
+          <mainEntityName></mainEntityName>
+          <hiValidator></hiValidator>
+          <lkServiceName>userinfo</lkServiceName>
+          <lkEntityName>UserInfo</lkEntityName>
+          <lkFieldName>nick</lkFieldName>
+          <isLkForeignKey>false</isLkForeignKey>
+          <hiDataType>6</hiDataType>
+          <isSearch>false</isSearch>
+          <isListDisplay>true</isListDisplay>
+          <isReadOnly>false</isReadOnly>
+          <isHidden>false</isHidden>
+          <isFull>false</isFull>
+          <isMainLookup>true</isMainLookup>
+          <isParent>false</isParent>
+        </org.hi.studio.hsceditor.visual.model.ColumnModel>
       </columns>
       <indices/>
       <backgroundColor>
@@ -381,7 +406,31 @@
             <isMainLookup>false</isMainLookup>
             <isParent>true</isParent>
           </foreignKeyColumn>
-          <targetIdColumn reference="../../../columns/org.hi.studio.hsceditor.visual.model.ColumnModel"/>
+          <targetIdColumn>
+            <columnName>id</columnName>
+            <logicalName>id</logicalName>
+            <size>20</size>
+            <scale></scale>
+            <notNull>false</notNull>
+            <primaryKey>true</primaryKey>
+            <description>id</description>
+            <autoIncrement>false</autoIncrement>
+            <defaultValue></defaultValue>
+            <mainEntityName></mainEntityName>
+            <hiValidator></hiValidator>
+            <lkServiceName></lkServiceName>
+            <lkEntityName></lkEntityName>
+            <lkFieldName></lkFieldName>
+            <isLkForeignKey>false</isLkForeignKey>
+            <hiDataType>2</hiDataType>
+            <isSearch>false</isSearch>
+            <isListDisplay>false</isListDisplay>
+            <isReadOnly>true</isReadOnly>
+            <isHidden>true</isHidden>
+            <isFull>false</isFull>
+            <isMainLookup>false</isMainLookup>
+            <isParent>false</isParent>
+          </targetIdColumn>
           <source class="org.hi.studio.hsceditor.visual.model.TableModel">
             <error></error>
             <linkedPath></linkedPath>
